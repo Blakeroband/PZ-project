@@ -17,7 +17,7 @@
 
 img {
     display: flex;
-    max-width: 650px;
+    max-width: 700px;
 }
 
 .header {
@@ -28,15 +28,20 @@ img {
     color: var(--banner);
 }
 
-ul {
+.list {
     display: table;
     margin: 0px auto;
     text-align: left;
     position: relative;
     left: -20px;
+    list-style-position: inside;
 }
 
 ol {
     display: table;
     list-style-position: inside;
+}
+
+p {
+    max-width: 700px;
 }
